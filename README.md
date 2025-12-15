@@ -14,7 +14,8 @@ cd labforty
 -   Copy the environment file and install PHP dependencies:
 
 ```bash
-copy .env.example .env       # on Windows (CMD)
+# on Windows (CMD)
+copy .env.example and create .env
 # or on macOS / Linux
 cp .env.example .env
 composer install
